@@ -4,4 +4,4 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./ui/App";
 import "./ui.css";
 
-createRoot(document.getElementById("root")!).render(<React.StrictMode><BrowserRouter><App /></BrowserRouter></React.StrictMode>);
+createRoot(document.getElementById("root")!).render(<React.StrictMode><<BrowserRouter basename="/Ai_mystery_Game">><App /></BrowserRouter></React.StrictMode>);
